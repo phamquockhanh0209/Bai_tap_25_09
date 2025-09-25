@@ -28,9 +28,10 @@ body {
   color: white;
 }
 
-.dong_tieu_de_phu {
-  background: #f5cccc;
+.dong_tieu_de_phu th{
+  background-color: #b22222;
   font-weight: bold;
+  color: #fff;
 }
 
 .cot_nhom {

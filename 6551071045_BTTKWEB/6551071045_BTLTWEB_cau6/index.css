@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 20px auto;
+    border: 2px solid red;
+}
+
+.khung-dau {
+    display: flex;
+    margin: 0 auto;
+}
+
+.khung-dau-left {
+    flex: 80%;
+}
+
+.header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    color: red;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.khung-dau-right img {
+    flex: 20%;
+    max-height: 120px;
+    display: block;
+    /* bỏ khoảng trống dưới ảnh */
+    width: 100%;
+    /* ảnh full luôn ô */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid red;
+}
+
+td {
+    border: 1px solid red;
+    vertical-align: top;
+    padding: 15px;
+}
+
+h3 {
+    color: red;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.image-box {
+    float: right;
+    margin-top: -60px;
+    margin-right: 20px;
+}
+
+.image-box img {
+    width: 100px;
+}

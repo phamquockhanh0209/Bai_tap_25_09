@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', serif;
+}
+
+body {
+    height: auto;
+    /* full chiều cao màn hình */
+    margin: 0 auto;
+    /* bỏ khoảng trắng mặc định */
+    max-width: 900px;
+}
+
+.dau img {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    display: block;
+    /* Loại bỏ khoảng trống dưới ảnh */
+}
+
+.nav {
+    background-color: rgb(167, 171, 171);
+    padding: 20px 10px 20px;
+    align-items: center;
+}
+
+.nav a{
+    color: white;
+    font-weight: bold;
+}
+.nut {
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.tren img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    display: block;
+    /* Loại bỏ khoảng trống dưới ảnh */
+}
+
+.duoi {
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* 5 cột bằng nhau */
+    gap: 20px;
+    /* khoảng cách giữa các món */
+    color: white;
+    background-color: rgb(64, 36, 2);
+    padding: 0 5px;
+    position: relative;
+    /* quan trọng để nút bám theo khung */
+}
+
+.mon_an img {
+    width: 100%;
+    height: 150px;
+    /* chiều cao cố định */
+    object-fit: cover;
+    /* ảnh tự crop, không méo */
+    display: block;
+}
+
+.gioi_thieu {
+    margin: 10px 0 0 0;
+    min-height: 130px;
+}
+
+.ten_mon {
+    margin: 10px 0 20px 0;
+    font-weight: bold;
+}
+
+.mon_an .xem-tiep {
+    margin-bottom: 0;
+    float: right;
+    color: brown;
+}
+
+.cuoi_trang {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}

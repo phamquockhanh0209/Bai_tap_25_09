@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;  /* căn ngang */
+    align-items: center;      /* căn dọc */
+    height: auto;            /* full chiều cao màn hình */
+    margin: 10px;                /* bỏ khoảng trắng mặc định */
+}
+
+.bai_lam{
+    border: 1px solid;
+    align-items: center;
+    height: auto;
+}
+
+h1{
+    color: green;
+    padding: 0 50px 30px 50px;
+}
+
+.dau{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline; 
+    /* gạch chân */
+    padding: 30px 0;
+}
+
+.tieu_de{
+    font-weight: bold;
+    padding: 0 0 20px 0;
+}
+
+.sau h2{
+    text-align: center;
+    color: rgb(226, 6, 250);
+    background-color: rgb(223, 139, 196);
+    margin: 0 0 10px 0;
+}
+
+.noi_dung{
+    background-color: rgb(255, 216, 168);
+}
+
+.noi_dung_1{
+    text-align: center;
+    color: blue;
+    padding: 0 0 5px 0;
+}
+
+.noi_dung_2{
+    text-align: center;
+    color: rgb(255, 48, 217);
+    padding: 0 0 5px 0;
+}
+
+.noi_dung_3{
+    text-align: center;
+    color: rgb(0, 95, 5);
+    padding: 0 0 5px 0;
+}
+
+hr{
+    border-top: 2px solid rgb(2, 73, 7); 
+    width: 40%;
+    text-align: center;
+    margin: 20px auto;
+}

@@ -1,0 +1,40 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #fff;
+  margin: 20px;
+}
+
+.tieu_de {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.muc_lon {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.mau_do {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.lien_he {
+  margin-top: 20px;
+  font-style: italic;
+  color: blue;
+}
+
+.so_dt {
+  color: blue;
+}

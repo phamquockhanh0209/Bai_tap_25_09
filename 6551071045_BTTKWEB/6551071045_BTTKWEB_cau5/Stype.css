@@ -1,0 +1,38 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #fff;
+  margin: 20px;
+}
+
+.tieu_de {
+  text-align: center;
+  color: red;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.bang_hoc {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.bang_hoc th, .bang_hoc td {
+  border: 1px solid #a00;
+  padding: 6px 10px;
+  text-align: center;
+}
+
+.dong_tieu_de {
+  background: #b22222;
+  color: white;
+}
+
+.dong_tieu_de_phu {
+  background: #f5cccc;
+  font-weight: bold;
+}
+
+.cot_nhom {
+  font-weight: bold;
+}

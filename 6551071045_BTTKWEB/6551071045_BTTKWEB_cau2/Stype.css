@@ -1,0 +1,71 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background: #f3f3f3;
+  margin: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.khung {
+  width: 800px;
+  border: 3px solid #6f6f6f;
+  background: #ffffff;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.tieu_de {
+  color: #17e017;      
+  text-align: center;
+  font-size: 60px;
+  margin: 6px 0 18px 0;
+}
+
+
+.noidung {
+  padding: 10px 30px;
+}
+
+
+.dong {
+  margin: 14px 0;
+  line-height: 1.6;
+}
+
+
+.nhan {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-right: 8px;
+}
+
+
+.mo_ta {
+  font-style: italic;
+  color: #222;
+}
+
+
+.mau_do {
+  color: #fe1b02;
+  font-weight: 600;
+}
+
+
+.ma_lenh {
+  width: 60%;
+  margin: 26px auto 10px auto;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+@media (max-width: 900px) {
+  .khung { width: 95%; }
+  .ma_lenh { width: 100%; }
+}
